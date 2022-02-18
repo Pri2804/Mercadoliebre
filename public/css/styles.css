@@ -431,7 +431,7 @@ footer {
 
 /* RESPONSIVE */
 
-@media (min-width: 361px) {
+@media (min-width: 370px) {
 
     header nav{
         display: flex;
@@ -477,7 +477,7 @@ footer {
       }
     
     .products-container article {
-        max-width: 23%;
+        max-width: 45%;
       }
 
     .description {
@@ -507,5 +507,9 @@ footer {
     
     footer {
         flex-direction: row;
+      }
+
+      .products-container article {
+        max-width: 23%;
       }
 }
